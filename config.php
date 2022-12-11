@@ -3,9 +3,9 @@
 $server = "localhost";
 $user = "root";
 $password = "";
-$nama_database = "student_registration";
+$database_name = "student_registration";
 
-$db = mysqli_connect($server, $user, $password, $nama_database);
+$db = mysqli_connect($server, $user, $password, $database_name);
 
 if( !$db ){
     die("Failed to connect to database: " . mysqli_connect_error());
