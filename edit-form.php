@@ -11,7 +11,7 @@ if( !isset($_GET['id']) ){
 $id = $_GET['id'];
 
 // buat query untuk ambil data dari database
-$sql = "SELECT * FROM prospective_students WHERE id=$id";
+$sql = "SELECT * FROM prospective_student WHERE id=$id";
 $query = mysqli_query($db, $sql);
 $student = mysqli_fetch_assoc($query);
 
