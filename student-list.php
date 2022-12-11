@@ -47,7 +47,7 @@
 
             echo "<td>";
             echo "<a href='edit-form.php?id=".$student['id']."'>Edit</a> | ";
-            //echo "<a href='hapus.php?id=".$student['id']."'>Hapus</a>";
+            echo "<a href='hapus.php?id=".$student['id']."'>Hapus</a>";
             echo "</td>";
 
             echo "</tr>";
